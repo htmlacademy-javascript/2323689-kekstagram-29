@@ -75,5 +75,10 @@ const createPhoto = () => ({
   likes: generatePhotoLikes(),
   comments: Array.from({length: generateCommentsCount()}, createComments)
 });
+const array25 = [];
+for(let i = 1; i <= countObj; i++) {
+  array25.push(createPhoto());
+}
+console.log(array25);
 
 
