@@ -1,4 +1,4 @@
-import {getData} from './data.js'
+import {getData} from './data.js';
 import {getRandomInteger, createRandomIdFromRangeGenerator} from './util.js';
 const countObj = 25;
 const generatePhotoId = createRandomIdFromRangeGenerator(1, 25);
@@ -22,8 +22,8 @@ const createPhoto = () => ({
   likes: generatePhotoLikes(),
   comments: Array.from({length: generateCommentsCount()}, createComments)
 });
-const array25 = [];
+const createArrayPhotoInfo = [];
 for(let i = 1; i <= countObj; i++) {
-  array25.push(createPhoto());
+  createArrayPhotoInfo.push(createPhoto());
 }
-export{array25};
+export{createArrayPhotoInfo};

@@ -1,5 +1,1 @@
-import{array25} from './createArrayPhoto.js';
-
-
-
-
+import{createArrayPhotoInfo} from './createArrayPhoto.js';

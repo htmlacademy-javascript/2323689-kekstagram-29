@@ -1,4 +1,4 @@
-const getData = function(){
+const getData = () => {
   const nameMock = [
     'Ivan',
     'Fedor',
