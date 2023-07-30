@@ -1,1 +1,2 @@
-import{createArrayPhotoInfo} from './createArrayPhoto.js';
+import { renderCards } from './renderCards.js';
+renderCards()
